@@ -53,11 +53,17 @@
         <div class="contact" id="contact">
             <div class="shape__container">
                 <div class="left">
-                    <form action="https://formsubmit.co/your@email.com" method="post">
-                        <input type="text" placeholder="Name" required>
-                        <input type="email" placeholder="Email" class="email" required>
-                        <input id="subject__input" type="text" placeholder="Subject" required>
-                        <textarea name="email" id="message__input" cols="61" rows="15" placeholder="Message" required></textarea>
+                    <form action="https://formsubmit.co/8748102179ef56f7c66a0d53fa991c48" method="post">
+
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display:none">
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <input name="Name" type="text" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" class="email" required>
+                        <input id="subject__input" name="Subject" type="text" placeholder="Subject" required>
+                        <textarea name="Message" id="message__input" cols="61" rows="15" placeholder="Message" required></textarea>
                         <div class="submit__btn">
                             <button type="submit" id="submit" class="contact__btn">
                                 <a class="submit_btn_text">Submit</a>
