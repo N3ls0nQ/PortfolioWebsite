@@ -1,0 +1,107 @@
+.contact{
+    background-color: #141414;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shape__container{
+    background-color: #272727;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0, 0.5);
+}
+
+.left{
+    width: calc(50% - 50px);
+    height: 100%;
+    background-color: #272727;
+    padding: 2% 5%;
+    line-height: 1.5em;
+    text-align: justify;
+    box-sizing: border-box;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    width: calc(50% + 50px);
+    height: 100%;
+    background: #00cbfe;
+    border-left: 100px solid #272727;
+    border-bottom: 800px solid transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.right h1 {
+    font-size: 3rem;
+    margin: 20px;
+    /* font-family: 'Kumbh Sans', sans-serif; */
+}
+
+.right p {
+    font-size: 1.3rem;
+}
+
+.contact form {
+    display: inline-block;
+    align-content: center;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.contact input {
+    height: 50px;
+    width: 310px;
+    margin-bottom: 20px;
+    color: #adabab;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    background-color: #363636;
+    border: none;
+    border-radius: 7px;
+    border: 2px solid #adabab;
+
+}
+
+.contact input:hover{
+    border: 2px solid aqua;
+}
+
+#subject__input{
+    height: 50px;
+    width: 650px;
+
+}
+
+#message__input{
+    /* width: 650px;
+    height: 400px; */
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #adabab;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    background-color: #363636;
+    border: 2px solid #adabab;
+    border-radius: 7px;
+    resize: none;
+}
+
+#message__input:hover{
+    border: 2px solid aqua
+}
+
+.submit__btn{
+    justify-content: center;
+    display: flex;
+}

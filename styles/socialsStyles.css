@@ -1,0 +1,21 @@
+.socials{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    display: flexbox;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.socials__container  {
+    bottom: 30px;
+    z-index: 200;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials__container i:hover {
+    transition: all 0.3s ease;
+    color: aqua;
+}

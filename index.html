@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <link rel="stylesheet" href="styles/socialsStyles.css">
+    <link rel="stylesheet" href="styles/contactStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading Section -->
+        <div class="heading">
+            <div class="heading__container">
+                <h2>Hey,</h2>
+                <h2>I'm Quentin,</h2>
+                <h1>Software Developer & Game Dev</h1>
+        
+                <hr class="thick-seperator">
+        
+                <button class="contact__btn">
+                     <a class="contact_a" href="#contact">Contact me!</a>
+                </button>
+                <i class='bx bx-chevrons-down bx-fade-down bx-lg' style='color:#ffffff' ></i>
+            </div>
+        </div>
+    
+        
+    
+    
+        <!-- Socials -->
+        <div class="socials">
+            <div class="socials__container">
+                <a href="https://github.com/N3ls0nQ" target="_blank">
+                    <i class='bx bxl-github bx-lg'></i>
+                </a>
+                <a href="https://www.instagram.com/itz.quentin_/" target="_blank" >
+                    <i class='bx bxl-instagram bx-lg'></i>
+                </a>
+            </div>  
+        </div>
+      
+    
+        <!-- Contact Me Section -->
+        <div class="contact" id="contact">
+            <div class="shape__container">
+                <div class="left">
+                    <form action="https://formsubmit.co/your@email.com" method="POST">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" class="email" required>
+                        <input id="subject__input" type="text" placeholder="Subject" required>
+                        <textarea name="message__input" id="message__input" cols="61" rows="15" placeholder="Message" required></textarea>
+                        <div class="submit__btn">
+                            <button type="submit" id="submit" class="contact__btn">
+                                <a class="submit_btn_text">Submit</a>
+                           </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right">
+                    <h1>Contact me!</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat distinctio ex quod, molestias dolore dolorem saepe architecto iusto vitae blanditiis similique perferendis quos vel odit dolor odio error quidem aut.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <script src="contactForm.js"></script>
+</body>
+</html>
