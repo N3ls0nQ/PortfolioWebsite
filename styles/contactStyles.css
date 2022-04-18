@@ -62,7 +62,7 @@
     flex-wrap: wrap-reverse;
 }
 
-.contact input {
+.information__input {
     height: 50px;
     width: 310px;
     margin-bottom: 20px;
@@ -72,16 +72,31 @@
     background-color: #363636;
     border-radius: 7px;
     border: 2px solid #adabab;
+    justify-content: center;
+    align-items: center;
+    transition: all 250ms ease;
+    z-index: 2;
 }
 
-.contact input:hover{
-    border: 2px solid aqua;
+
+.email__input:hover{
+    transform: scale(1.1, 1.1) translateX(10px);
+    border: 2px solid aqua
 }
+.name__input:hover{
+    transform: scale(1.1, 1.1) translateX(-10px);
+    border: 2px solid aqua
+}
+.subject__input:hover{
+    transform: scale(1.1, 1.1);
+    border: 2px solid aqua
+}
+
+
 
 #subject__input{
     height: 50px;
     width: 650px;
-
 }
 
 #message__input{
@@ -96,10 +111,11 @@
     border: 2px solid #adabab;
     border-radius: 7px;
     resize: none;
-
+    transition: all 250ms ease;
 }
 
 #message__input:hover{
+    transform: scale(1.1, 1.1) translateY(10px);
     border: 2px solid aqua
 }
 
@@ -140,6 +156,4 @@
         align-items: center;
     } */
 
-    .shape__container{
-    }
 }
