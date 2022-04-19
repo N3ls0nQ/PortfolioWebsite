@@ -16,6 +16,9 @@
 }
 
 .socials__container i:hover {
-    transition: all 0.3s ease;
+    transition: all 200ms ease;
+    transform: scale(1.2, 1.2);
     color: aqua;
 }
+
+
